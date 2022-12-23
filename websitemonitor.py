@@ -109,9 +109,4 @@ class checkStock:
             time.sleep(interval)
         self.runCheck(interval)
     
-
 checkStock().runCheck(1.33)
-
-
-
-
