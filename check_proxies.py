@@ -31,7 +31,6 @@ def check_proxies():
 for _ in range(20):
     threading.Thread(target=check_proxies).start()
 
-
 et = time.time()
 
 # get the execution time
